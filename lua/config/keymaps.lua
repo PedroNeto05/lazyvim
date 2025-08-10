@@ -13,15 +13,3 @@ map("n", "<C-a>", "gg<S-v>G")
 wk.add({
   { "<leader>a", group = "+ai" },
 })
-
-vim.api.nvim_create_autocmd("LspAttach", {
-  callback = function(args)
-    wk.add({
-      {
-        "<leader>cw",
-        require("telescope.builtin").diagnostics,
-        desc = "Diagnostics",
-      },
-    }, { buffer = args.buf })
-  end,
-})
