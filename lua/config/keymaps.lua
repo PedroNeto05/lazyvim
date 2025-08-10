@@ -10,5 +10,6 @@ map("n", "<C-a>", "gg<S-v>G")
 wk.add({
   {
     { "<leader>a", group = "+ai" },
+    { "<leader>cw", require("telescope.builtin").diagnostics, desc = "Diagnostics" },
   },
 })
