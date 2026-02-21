@@ -6,7 +6,7 @@ return {
     opts.window = opts.window or {}
 
     opts.window.completion = cmp.config.window.bordered({
-      border = "rounded", -- pode testar "single"
+      border = "rounded",
     })
 
     opts.window.documentation = cmp.config.window.bordered({
