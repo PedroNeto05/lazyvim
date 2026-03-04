@@ -23,6 +23,9 @@ return {
         return conf
       end,
     },
+    view_options = {
+      show_parent_dir = true,
+    },
   },
   -- Optional dependencies
   dependencies = { { "nvim-mini/mini.icons", opts = {} } },
