@@ -6,5 +6,6 @@ return {
         border = "rounded",
       },
     },
+    scroll = { enabled = false },
   },
 }

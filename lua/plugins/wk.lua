@@ -8,6 +8,11 @@ if ok then
       end,
       desc = "Explorer (Oil Float)",
     },
+    {
+      "<leader>W",
+      "<cmd>w<CR>",
+      desc = "Save File",
+    },
     { "<leader>a", group = "+ai" },
   })
 end
